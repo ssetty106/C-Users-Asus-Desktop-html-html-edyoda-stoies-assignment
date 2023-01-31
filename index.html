@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>edyoda stories</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 50px;
+            border-bottom: 1px solid black;
+            position: fixed;
+            width: 100%;
+            box-shadow: 0 1px 1px #ccc;
+        }
+        header p {
+            margin: 0;
+        }
+        header .left{
+            display: flex;
+            align-items: center;
+        }
+        header .left img {
+            margin-right: 40px;
+            height: 51px;
+        }
+        header .right {
+            display: flex;
+            align-items: center;
+        }
+        header .right p {
+            color: grey;
+        }
+        header .right a {
+            margin-left: 40px;
+            background-color: blue;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 40px;
+            text-decoration: none;
+            background-image: linear-gradient(blue);
+        }
+        main {
+            padding: 10px 50px;
+            padding-top: 75px;
+            background-color: #f2f6ff;
+        }
+        main p {
+            display: flex;
+            align-items: center;
+        }
+        main p img {
+            width: 24px;
+            margin-right: 5px;
+        }
+        .filters button {
+            color: #0084ff;
+            padding: 6px 16px;
+            border-radius: 15px;
+            border: 1px solid #0084ff;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .filters button:hover,
+        .filters button.active {
+            background-image: linear-gradient(#0084ff);
+            color: white;
+        }
+        .posts {
+            margin: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .posts .post {
+            width: 30%;
+            box-shadow: 0 5px 20px 0 rgba(0);
+            margin: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            border: 1px solid rgba(0,168,);
+        }
+        .posts .post .content {
+            padding: 20px;
+            background: white;
+        }
+        .posts .post .content p span {
+            color: #0096ff;
+        }
+        footer {
+            background-color: #172146;
+            display: flex;
+            justify-content: space-between;
+            padding: 80px 16%;
+        }
+        .left  h3 {
+            color: white;
+            font-weight: 500px;
+            margin: 1%;
+            
+        }
+        .left a {
+            color: white;
+            text-decoration: none;
+            justify-content: space-between;
+            margin: 1%;
+
+        }
+        .midle h3 {
+            color: white;
+            justify-content: space-between;
+            margin: 1%;
+        }
+        .midle p {
+            color: white;
+            justify-content: space-between;
+            margin: 1%;
+        }
+        .right h3 {
+            color: white;
+            margin: 1%;
+        }
+        .right p a {
+            color: white;
+            text-decoration: none;
+            margin: 1%;
+        }
+        .right h4 {
+            color: white;
+            margin: 1%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="edyoda logo.png" alt="edyoda stories logo">
+            <p>explore catagories</p>
+        </div>
+        <div class="right">
+            <p>edyoda is a free learning and knoweldge shering flat form for techies </p>
+            <a href="#">Go to main website</a>
+
+        </div> 
+    </header>
+    <main>
+        <h1>Latest Posts</h1>
+        <p><img src="filter.png">filter by catagory</p>
+        <div class="filters">
+            <button class="active">All</button>
+            <button>Artificial Intelligence</button>
+            <button>Cloud Computing</button>
+            <button>DevOPS</button>
+            <button>Programming languages</button>
+            <button>Mobile Apllication Devolepment</button>
+            <button>Technology and Tools</button>
+            <button>Get a job in a Tech Company</button>
+            <button>Others</button>
+        </div>
+        <div class="posts">
+            <div class="post">
+                <img src="it.png">
+                <div class="content">
+                    <h2>fresh graduate or IT professional lo0king for a</h2>
+                    <p><span>Arman Ahmed</span>&nbsp;|05 jul 2019</p>
+                    <p>if you are a fresh graduate - or new to IT -lokking for the next job. you need to read this, the last couple of years zekelabs gave me a unique opportunity to.</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="edyoda28.png">
+                <div class="content">
+                    <h2>Inetrducing you all to Edyoda-..</h2>
+                    <p><span>Arman Ahmed</span>&nbsp;|05 jul 2019</p>
+                    <p>Really estatic and immensely proud to introduce you all to our latest attempt of adding value and making an impact to the world we are a part of.</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="dev8.png">
+                <div class="content">
+                    <h2>From Identity crisis to the success story-th.</h2>
+                    <P><span>Kalyan Mahalinagm</span>&nbsp;|05 jul 2019</P>
+                    <P>DevOPS is a paradigm shift in the way how software products are being built in the modern day information technology (IT)Organization  it is becoming the.</P>
+                </div>
+            </div>
+            <div class="post">
+                <img src="data scintist.png">
+                <div class="content">
+                    <h2>Typical day of Data scientist-An insider.</h2>
+                    <p><span>Saurav Ghosh</span>&nbsp;|05 jul 2019</p>
+                    <p>i've been a Data scientist for three years now and i can only say that chris lynch was right-big data and data science are the foundation of all the trends that.</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="cloud6.png">
+                <div class="content">
+                    <h2>Amazon Web Services (AWS)Cloud Day</h2>
+                    <p><span>Kalyan Mahalinagm</span>&nbsp;|05 jul 2019</p>
+                    <P>it was indeed a hectic day with back session sandwiched by good food and tea (on lighter note.need to invastigate the tactics behind the 5-star hotels.</P>
+                </div>
+            </div>
+            <div class="post">
+                <img src="awsn.png">
+                <div class="content">
+                    <h2>edyoda meetup#01:A Date with Cloud</h2>
+                    <p><span>Asish Pandey</span>&nbsp;|05 jul 2019</p>
+                    <p>i recently had that opportunity to lead the intiative to Organize the first Cloud meetup for edyoda here.i recount my experience in orgaanizing the very first in the.</p>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <footer>
+        <div class="left">
+            <h3>EDYODA</h3>
+            <P><a href="#">About us </a></P>
+            <P><a href="#">Careers</a></P>
+            <p><a href="#">contact us</a></p>
+            <p><a href="#">Terms of use</a></p>
+            <p><a href="#">privacy policy</a></p>
+        </div>
+        <div class="midle">
+            <h3>RESOURCES</h3>
+            <p>Learning paths</p>
+            <p>courses</p>
+            <p>learning videos</p>
+            <p>Educators</p>
+            <p>Edoyoda stories</p>
+            <p>University</p>
+        </div>
+        <div class="right">
+            <h3>FOR ENTERPRISES</h3>
+
+            <h4>QUICK LINKS</h4>
+            <p><a href="#">learn and earn</a></p>
+            <P><a href="#">Become a learning-enbler</a></P>
+            <P><a href="#">Tips for learning-enabler</a></P>
+            <p><a href="#">Request New topic</a></p>
+            <p><a href="#">Certification</a></p>
+            <p><a href="#">Affiliate Program</a></p>
+        </div>
+    </footer>
+</body>
+</html>
